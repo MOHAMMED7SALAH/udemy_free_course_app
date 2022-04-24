@@ -58,7 +58,7 @@ class CourseTile extends StatelessWidget {
                   ),
                   child: Center(
                     child: Text(
-                      title.replaceAll("[Free]", ""),
+                      title.replaceAll("[Free]" , ""),
                       style:
                           GoogleFonts.notoSans(fontSize: 16, color: Colors.white),
                     ),
